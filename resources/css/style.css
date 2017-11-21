@@ -1,0 +1,151 @@
+*{
+	max-width: 100%;
+}
+
+body{
+	background: #092121;
+}
+
+header, body, footer{
+	max-width: 960px;
+	padding: 0 10px 0 10px;
+	margin: 0 auto;
+}
+
+/* HEADER */
+
+header{
+	height: 120px;
+	position: relative;
+}
+
+#logo_name{
+	position: relative;
+	max-width: 100%;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+#menu{
+	position: relative;
+	float: right;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	font-family: 'Crimson Text', serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.3em;
+}
+
+#menu ul li{
+	display: inline;
+	margin-left: 30px;
+}
+
+#menu ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+#menu ul li a:hover{
+	color: #e41d22;
+	padding-bottom: 2px;
+	border-bottom: 2px solid #e41d22;
+}
+
+/* PROJECTS */
+
+.project{
+	display: flow-root;
+	position: relative;
+	padding: 0 10px 50px 10px;
+}
+
+.project img{
+	max-width:100%;
+	height: 100%;
+	z-index: 0;
+}
+
+.right img{
+	float: right;
+}
+
+.project a{
+	text-decoration: none;
+}
+
+.project h1{
+	font-family: 'Yeseva One', cursive;
+	font-size: 4.9em;
+	text-decoration: none;
+	color: #e41d22;
+}
+
+.project h2, h3{
+	font-family: 'Crimson Text', serif;
+	color: #fff;
+}
+
+.project h2{
+	font-size: 1em;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+	margin-top: 10px;
+}
+
+.project h2.client{
+	margin-top: 20px;
+}
+
+.project h3{
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.3em;
+}
+
+.project .text_right, .text_left{
+	position: absolute;
+	max-width: 50%;
+	z-index: 999;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	margin-top: -25px;
+}
+
+.project .text_right{
+	text-align: right;
+	right: 0px;
+}
+
+.project .text_left{
+	text-align: left;
+	float: left;
+}
+
+.project .text_right h3{
+	padding-right: 6px;
+}
+
+.project h3{
+	padding-top: 5px;
+}
+
+footer{
+	text-align: center;
+	border-top: 2px solid #e41d22;
+	padding: 30px 0 30px 0;
+}
+
+footer a{
+	font-family: 'Yeseva One', cursive;
+	font-size: 8.36em;
+	text-decoration: none;
+	color: #e41d22;
+}
