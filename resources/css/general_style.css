@@ -1,0 +1,69 @@
+body{
+	background: #092121;
+}
+
+header, footer{
+	max-width: 960px;
+	padding: 0 10px 0 10px;
+	margin: 0 auto;
+}
+
+/* HEADER */
+
+header{
+	height: 120px;
+	position: relative;
+}
+
+#logo_name{
+	position: relative;
+	max-width: 100%;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+#menu{
+	position: relative;
+	float: right;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	font-family: 'Crimson Text', serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.3em;
+}
+
+#menu ul li{
+	display: inline;
+	margin-left: 30px;
+}
+
+#menu ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+#menu ul li a:hover{
+	color: #e41d22;
+	padding-bottom: 2px;
+	border-bottom: 2px solid #e41d22;
+}
+
+/* FOOTER */
+
+footer{
+	text-align: center;
+	border-top: 2px solid #e41d22;
+	padding: 30px 0 30px 0;
+}
+
+footer a{
+	font-family: 'Yeseva One', cursive;
+	font-size: 8.36em;
+	text-decoration: none;
+	color: #e41d22;
+}
