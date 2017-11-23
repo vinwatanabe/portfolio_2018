@@ -132,3 +132,23 @@ strong{
 	padding-bottom: 2px;
 	border-bottom: 2px solid #e41d22;
 }
+
+@media only screen and (max-width: 960px) {
+	.container{
+	padding: 0 20px 0 20px;
+	}
+
+	.bio_picture img{
+		width: 60%;
+		height: auto;
+	}
+
+	.bio_picture .text_right{
+	right: 4%;
+	}
+
+	.contact{
+	padding: 20px 0 60px 0;
+	}
+
+}

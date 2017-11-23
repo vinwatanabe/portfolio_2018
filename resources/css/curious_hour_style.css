@@ -83,6 +83,8 @@
 
 .results_grid img{
 	vertical-align: top;
+	width: 100%;
+	height: auto;
 }
 
 .img_left{
@@ -97,4 +99,9 @@
 
 .no_padding{
 	padding-bottom: 0;
+}
+
+.container{
+	padding: 0 20px 0 20px;
+	}
 }
