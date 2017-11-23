@@ -8,7 +8,7 @@
 .project{
 	display: flow-root;
 	position: relative;
-	padding: 0 10px 50px 10px;
+	padding-bottom: 50px;
 }
 
 .project img{
