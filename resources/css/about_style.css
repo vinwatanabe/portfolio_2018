@@ -1,0 +1,134 @@
+.container{
+	max-width: 960px;
+	padding: 0 10px 0 10px;
+	margin: 0 auto;
+}
+
+.bio_picture{
+	display: flow-root;
+	position: relative;
+	padding: 0 10px 0px 10px;
+}
+
+.bio_picture img{
+	max-width:100%;
+	height: 100%;
+	z-index: 0;
+}
+
+.bio_picture a{
+	text-decoration: none;
+	color: #fff;
+	line-height: 25px;
+}
+
+.bio_picture a:hover{
+	color: #e41d22;
+}
+
+.bio_picture h1{
+	font-family: 'Yeseva One', cursive;
+	font-size: 4.9em;
+	text-decoration: none;
+	color: #fff;
+}
+
+.bio_picture h2, h3{
+	font-family: 'Crimson Text', serif;
+	color: #fff;
+}
+
+.bio_picture h2{
+	font-size: 1em;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+	margin-top: 10px;
+}
+
+.bio_picture h2.client{
+	margin-top: 20px;
+}
+
+.bio_picture h3{
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.3em;
+}
+
+.bio_picture .text_right{
+	text-align: right;
+	right: 0px;
+	position: absolute;
+	max-width: 50%;
+	z-index: 999;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+strong{
+	font-weight: 700;
+}
+
+.bio_picture .text_right h3{
+	padding-right: 6px;
+}
+
+.bio_picture h3{
+	padding-top: 5px;
+}
+
+.description{
+	padding: 40px 0 40px 0;
+}
+
+.no_padding{
+	padding-top: 0;
+}
+
+.description p{
+	font-family: 'Crimson Text', serif;
+	color: #fff;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.3em;
+	line-height: 25px;
+	letter-spacing: 1px;
+	padding: 30px 0 30px 0;
+}
+
+.box{
+	border-top: 2px solid #e41d22;
+}
+
+.contact{
+	padding: 20px 0 60px 0;
+}
+
+.contact ul{
+	text-align: center;
+}
+
+.contact li{
+	display: inline-block;
+	padding: 0 10px 0 10px;
+}
+
+.contact a{
+	font-family: 'Crimson Text', serif;
+	color: #fff;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.3em;
+	line-height: 25px;
+	letter-spacing: 1px;
+	padding: 30px 0 30px 0;
+	text-decoration: none;
+}
+
+.contact a:hover{
+	color: #e41d22;
+	padding-bottom: 2px;
+	border-bottom: 2px solid #e41d22;
+}
