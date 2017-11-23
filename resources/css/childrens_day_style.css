@@ -65,7 +65,40 @@
 	height: 100%;
 }
 
+/* TESTE */
+
 .content_02{
+	position: relative;
+	background-color: #dd2f4b;
+	height: 892px;
+}
+
+.canvas_container{
+	width: 380px;
+	height: 892px;
+}
+
+.canvas{
+	position: absolute;
+	width: 380px;
+	height: 772px;
+	top: 50%;
+	left: 70%;
+	transform: translate(-70%,-50%);
+}
+
+.fairy{
+	max-width: 506px;
+	max-height: 892px;
+	transform: translateX(-30%);
+}
+
+.fairy img{
+	width: 100%;
+	height: 100%;
+}
+
+/*.content_02{
 	position: relative;
 	background-color: #dd2f4b;
 	max-width: 100%;
@@ -94,7 +127,7 @@
 	display: block;
 	padding-right: 40px;
 	float: right;
-}
+}*/
 
 .content_03{
 	background-color: #00babe;
