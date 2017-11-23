@@ -97,3 +97,37 @@
 	font-size: 3.5em;
 	}
 }
+
+@media only screen and (max-width: 426px) {
+	#projects{
+		padding: 0 20px 0 20px;
+	}
+
+	.project .text_right, .text_left{
+		position: relative;
+		max-width: 100%;
+		z-index: 999;
+		top: 0%;
+		-ms-transform: translateY(0%);
+		-webkit-transform: translateY(0%);
+		transform: translateY(0%);
+		margin-top: 0px;
+	}
+
+	.project .text_right{
+		text-align: center;
+		right: 0px;
+	}
+
+	.project .text_left{
+		text-align: center;
+		float: none;
+	}
+
+	.project h1{
+		font-family: 'Yeseva One', cursive;
+		font-size: 2.5em;
+		text-decoration: none;
+		color: #e41d22;
+	}
+}
