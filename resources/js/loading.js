@@ -1,14 +1,10 @@
 $(document).ready(function(){
-	$('header').hide();
-	$('#project').hide();
-	$('footer').hide();
+	$('#container').hide();
 
 	$(window).load(function(){
 		$('.load-container').slideUp(function(){
 			$('.load-container').hide();
-			$('header').fadeIn(500);
-			$('#project').fadeIn(500);
-			$('footer').fadeIn(500);
+			$('#container').fadeIn(500);
 		});
 	});
 
@@ -16,8 +12,8 @@ $(document).ready(function(){
 		var url = $(this).attr('href');
 		e.preventDefault();
 
-		$('body').fadeOut(500, function(){
-			$('body').hide(function(){
+		$('#container').fadeOut(500, function(){
+			$('#container').hide(function(){
 				window.open(url, "_self");
 			});
 		});
