@@ -42,7 +42,7 @@
 	background-image: url(../img/peace_popper/background_paper_01.png);
 	background-repeat: no-repeat;
 	background-position: center bottom;
-	padding: 160px 0 0px 0;
+	padding: 160px 0 0 0;
 	height: 640px;
 }
 
@@ -62,6 +62,7 @@
 }
 
 .posts img{
+	display: block;
 	width: 100%;
 	height: 100%;
 	z-index: -1;
@@ -91,5 +92,65 @@
 
 	.media_logos ul{
 		width: 410px;
+	}	
+}
+
+@media only screen and (max-width: 426px) {
+	.container{
+		padding: 0 20px 0 20px;
+	}
+
+	#header_project{
+		overflow: hidden;
+	}
+
+	#header_project img{
+		display: block;
+		margin-left: 50%;
+		-ms-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		transform: translateX(-50%);
+		max-width: 640px;
+		height: 202px;
+		z-index: 0;
+	}
+
+	.title{
+		font-size: 2.5em;
+		margin-top: -20px;
+	}
+
+	#project p{
+		padding: 15px 0 15px 0;
+		text-align: center;
+	}
+
+	.content_01{
+		background-image: none;
+		background-color: #58bb9d;
+		padding: 160px 0 15px 0;
+	}
+
+	.content_02{
+		max-height: 100%;
+	}
+
+	.content_03{
+		background-image: none;
+		background-color: #58bb9d;
+		padding: 15px 0 15px 0;
+		margin-top: 0;
+	}
+
+	.credits{
+		margin-top: 0px;
+	}
+
+	.no_padding{
+		padding-top: 30px;
+	}
+
+	.posts{
+		padding-top: 15px;
 	}
 }
