@@ -106,3 +106,21 @@ footer a:hover{
 .project img{
 	transition: filter 1s, opacity 1s;
 }
+
+/* ABOUT PAGE LINKS */
+
+.bio_picture a{
+	transition: color 0.6s;
+}
+
+.bio_picture a:hover{
+	color: #e41d22;
+}
+
+.contact a{
+	transition: color 0.6s;
+}
+
+.contact a:hover{
+	color: #e41d22;
+}

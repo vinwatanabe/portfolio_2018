@@ -8,7 +8,7 @@ $(document).ready(function(){
 		});
 	};
 
-	$('a').click(function(e){
+	$('header a').click(function(e){
 		var url = $(this).attr('href');
 		e.preventDefault();
 

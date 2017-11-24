@@ -127,12 +127,6 @@ strong{
 	text-decoration: none;
 }
 
-.contact a:hover{
-	color: #e41d22;
-	padding-bottom: 2px;
-	border-bottom: 2px solid #e41d22;
-}
-
 @media only screen and (max-width: 960px) {
 	.container{
 	padding: 0 20px 0 20px;
