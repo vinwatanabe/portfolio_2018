@@ -1,0 +1,54 @@
+.load-container{
+	position: absolute;
+	background-color: #f1f1f1;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	z-index: 998;
+}
+
+.text-load{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+
+}
+
+.titulo-load{
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+	font-size: 5.5em;
+	color: #000;
+}
+
+.subtitulo-load{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.0625em;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	margin-top: 15px;
+	color: #0509bb;
+}
+
+.linha-load{
+	width: 30px;
+	height: 2px;
+	background-color: #0509bb;
+	margin: 0 auto;
+	margin-top: 20px;
+	-webkit-animation-name: load;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration: infinite;
+	animation-name: load;
+	animation-duration: 2.8s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes load{
+	0% {width: 30px;}
+	50% {width: 100%;}
+	100% {width: 30px;}
+}
