@@ -12,4 +12,21 @@ $(document).ready(function(){
 	        window.location.hash = target;
 	    });
 	});
+
+	//LINK IMAGE FILTER GRAYSCALE HOME
+	$('.project').mouseenter(function(){
+		$(this).find("img").css({"filter" : "grayscale(80%)", "opacity" : "0.4"});
+	});
+
+	$('.project').mouseenter(function(){
+		$(this).find("img").css({"-webkit-filter" : "grayscale(80%)", "opacity" : "0.4"});
+	});
+
+	$('.project').mouseleave(function(){
+		$(this).find("img").css({"filter" : "grayscale(0%)", "opacity" : "1"});
+	});
+
+	$('.project').mouseleave(function(){
+		$(this).find("img").css({"-webkit-filter" : "grayscale(0%)", "opacity" : "1"});
+	});
 });

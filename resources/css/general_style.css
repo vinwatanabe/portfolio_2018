@@ -47,12 +47,6 @@ header{
 	text-decoration: none;
 }
 
-#menu ul li a:hover{
-	color: #e41d22;
-	padding-bottom: 2px;
-	border-bottom: 2px solid #e41d22;
-}
-
 /* PROJECT */
 
 #header_project img{
