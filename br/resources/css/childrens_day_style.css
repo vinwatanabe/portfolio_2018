@@ -1,0 +1,178 @@
+/* PROJECT */
+.container{
+	max-width: 960px;
+	padding: 0 10px 0 10px;
+	margin: 0 auto;
+}
+
+#header_project img{
+	display: block;
+	max-width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+
+.title{
+	position: absolute;
+	width: 100%;
+	margin-top: -40px;
+	font-family: 'Yeseva One', cursive;
+	font-size: 4.9em;
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+	z-index: 999;
+}
+
+#project p{
+	font-family: 'Crimson Text', serif;
+	color: #fff;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.3em;
+	line-height: 25px;
+	letter-spacing: 1px;
+	padding: 30px 0 30px 0;
+}
+
+.content_01{
+	background-color: #973871;
+	padding: 160px 0 30px 0;
+}
+
+.image_grid{
+	width: 100%;
+	height: 100%;
+}
+
+.image_grid ul{
+	width: 100%;
+}
+
+.image_grid li{
+	display: inline-block;
+	max-width: 25%;
+	vertical-align: top;
+}
+
+.image_grid img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.content_02{
+	position: relative;
+	background-color: #dd2f4b;
+	height: 892px;
+}
+
+.canvas_container{
+	width: 380px;
+	height: 892px;
+}
+
+.canvas{
+	position: absolute;
+	width: 380px;
+	height: 772px;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+
+.canvas img{
+	width: 100%;
+	height: auto;
+}
+
+.content_03{
+	background-color: #00babe;
+	padding: 30px 0 30px 0;
+}
+
+.media_logos ul{
+	width: 870px;
+}
+
+@media only screen and (max-width: 960px) {
+	.container{
+	padding: 0 20px 0 20px;
+	}
+
+	.media_logos{
+		display: none;
+	}
+
+	.credits{
+		margin-top: -130px;
+	}
+}
+
+@media only screen and (max-width: 426px) {
+	.container{
+		padding: 0 20px 0 20px;
+	}
+
+	#header_project{
+		overflow: hidden;
+	}
+
+	#header_project img{
+		display: block;
+		margin-left: 50%;
+		-ms-transform: translateX(-50%);
+		-webkit-transform: translateX(-50%);
+		transform: translateX(-50%);
+		max-width: 640px;
+		height: 202px;
+		z-index: 0;
+	}
+
+	.title{
+		font-size: 2.5em;
+		margin-top: -20px;
+	}
+
+	#project p{
+		padding: 15px 0 15px 0;
+		text-align: center;
+	}
+
+	.content_01{
+		padding: 70px 0 15px 0;
+	}
+
+	.image_grid li{
+		max-width: 50%;
+	}
+
+	.content_02{
+		max-height: 100%;
+	}
+
+	.canvas_container{
+		width: auto;
+		max-height: 100%;
+	}
+
+	.canvas{
+		width: 90%;
+		height: auto;
+	}
+
+	.canvas img{
+		width: 100%;
+		height: auto;
+	}
+
+	.content_03{
+		padding: 15px 0 15px 0;
+	}
+
+	.credits{
+		margin-top: 0px;
+	}
+}

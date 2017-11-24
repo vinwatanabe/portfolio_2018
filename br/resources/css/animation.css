@@ -1,0 +1,126 @@
+/* HEADER */
+header, footer{
+	-webkit-animation-name: header_fade;
+	-webkit-animation-duration: 2s;
+	animation-name: header_fade;
+	animation-duration: 2s;
+}
+
+@-webkit-keyframes header_fade{
+	0% {opacity: 0; filter: Alpha(opacity=0);}
+	100% {opacity: 1; filter: Alpha(opacity=100);}
+}
+
+@keyframes header_fade{
+	0% {opacity: 0; filter: Alpha(opacity=0);}
+	100% {opacity: 1; filter: Alpha(opacity=100);}
+}
+
+/* MENU LINKS */
+
+#menu a{
+	transition: color 0.6s, padding-bottom 0.6s, border-bottom 0.6s;
+}
+
+#menu ul li a:hover{
+	color: #e41d22;
+	padding-bottom: 2px;
+	border-bottom: 2px solid #e41d22;
+}
+
+/* FOOTER */
+
+footer a{
+	-webkit-transition: color 0.6s;
+	transition: color 0.6s;
+}
+
+footer a:hover{
+	color: #fff;
+}
+
+/* PROJECTS */
+
+.anim_1{
+	-webkit-animation-name: project_fade_in;
+	-webkit-animation-duration: 1.5s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-delay: 0s;
+	-webkit-animation-fill-mode: backwards;
+	animation-name: project_fade_in;
+	animation-duration: 1.5s;
+	animation-timing-function: ease;
+	animation-delay: 0s;
+	animation-fill-mode: backwards;
+}
+
+.anim_2{
+	-webkit-animation-name: project_fade_in;
+	-webkit-animation-duration: 1.5s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-delay: 0.5s;
+	-webkit-animation-fill-mode: backwards;
+	animation-name: project_fade_in;
+	animation-duration: 1.5s;
+	animation-timing-function: ease;
+	animation-delay: 0.5s;
+	animation-fill-mode: backwards;
+}
+
+.anim_3{
+	-webkit-animation-name: project_fade_in;
+	-webkit-animation-duration: 1.5s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-delay: 1s;
+	-webkit-animation-fill-mode: backwards;
+	animation-name: project_fade_in;
+	animation-duration: 1.5s;
+	animation-timing-function: ease;
+	animation-delay: 1s;
+	animation-fill-mode: backwards;
+}
+
+.anim_4{
+	-webkit-animation-name: project_fade_in;
+	-webkit-animation-duration: 1.5s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-delay: 1.5s;
+	-webkit-animation-fill-mode: backwards;
+	animation-name: project_fade_in;
+	animation-duration: 1.5s;
+	animation-timing-function: ease;
+	animation-delay: 1.5s;
+	animation-fill-mode: backwards;
+}
+
+@-webkit-keyframes project_fade_in{
+	0% {opacity: 0; filter: Alpha(opacity=0); -ms-transform: translateY(100px); -webkit-transform: translateY(100px); transform: translateY(100px);}
+	100% {opacity: 1; filter: Alpha(opacity=100); -ms-transform: translateY(0px); -webkit-transform: translateY(0px); transform: translateY(0px);}
+}
+
+@keyframes project_fade_in{
+	0% {opacity: 0; filter: Alpha(opacity=0); -ms-transform: translateY(100px); -webkit-transform: translateY(100px); transform: translateY(100px);}
+	100% {opacity: 1; filter: Alpha(opacity=100); -ms-transform: translateY(0px); -webkit-transform: translateY(0px); transform: translateY(0px);}
+}
+
+.project img{
+	transition: filter 1s, opacity 1s;
+}
+
+/* ABOUT PAGE LINKS */
+
+.bio_picture a{
+	transition: color 0.6s;
+}
+
+.bio_picture a:hover{
+	color: #e41d22;
+}
+
+.contact a{
+	transition: color 0.6s;
+}
+
+.contact a:hover{
+	color: #e41d22;
+}
