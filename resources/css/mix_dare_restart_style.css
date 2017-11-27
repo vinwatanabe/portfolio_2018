@@ -154,3 +154,30 @@
 		padding-top: 15px;
 	}
 }
+
+@media only screen and (min-width: 1921px) {
+	#header_project img{
+		display: block;
+		max-width: 2560px;
+		width: 100%;
+		height: auto;
+	}
+	
+	.content_01{
+		background-image: none;
+		background-color: #58bb9d;
+		padding: 160px 0 60px 0;
+		height: auto;
+	}
+
+	.no_padding{
+		padding-top: 60px;
+	}
+
+	.content_03{
+		background-image: none;
+		background-color: #58bb9d;
+		margin-top: 0;
+		padding: 30px 0 30px 0;
+	}
+}
