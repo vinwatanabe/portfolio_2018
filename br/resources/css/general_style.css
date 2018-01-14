@@ -201,6 +201,13 @@ footer a{
 		transform: translate(-50%, -50%);
 	}
 
+	@-moz-document url-prefix() {
+    	#logo_name{
+        	margin-top: 60px;
+        	top: 0;
+    	}
+	}
+
 	#menu{
 		float: none;
 		top: 0;
