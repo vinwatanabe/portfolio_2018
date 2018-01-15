@@ -83,6 +83,13 @@
 	padding-top: 5px;
 }
 
+/* SAFARI FIX */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 @media only screen and (max-width: 960px) {
 	#projects{
 	padding: 0 20px 0 20px;
