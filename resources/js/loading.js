@@ -17,5 +17,11 @@ $(document).ready(function(){
 				window.open(url, "_self");
 			});
 		});
+
+		$('footer').fadeOut(500, function(){
+			$('footer').hide(function(){
+				window.open(url, "_self");
+			});
+		});
 	});
 });

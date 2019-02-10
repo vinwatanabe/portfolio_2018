@@ -93,6 +93,32 @@ footer a:hover{
 	animation-fill-mode: backwards;
 }
 
+.anim_5{
+	-webkit-animation-name: project_fade_in;
+	-webkit-animation-duration: 1.5s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-delay: 2s;
+	-webkit-animation-fill-mode: backwards;
+	animation-name: project_fade_in;
+	animation-duration: 1.5s;
+	animation-timing-function: ease;
+	animation-delay: 2s;
+	animation-fill-mode: backwards;
+}
+
+.anim_6{
+	-webkit-animation-name: project_fade_in;
+	-webkit-animation-duration: 1.5s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-delay: 2.5s;
+	-webkit-animation-fill-mode: backwards;
+	animation-name: project_fade_in;
+	animation-duration: 1.5s;
+	animation-timing-function: ease;
+	animation-delay: 2.5s;
+	animation-fill-mode: backwards;
+}
+
 @-webkit-keyframes project_fade_in{
 	0% {opacity: 0; filter: Alpha(opacity=0); -ms-transform: translateY(100px); -webkit-transform: translateY(100px); transform: translateY(100px);}
 	100% {opacity: 1; filter: Alpha(opacity=100); -ms-transform: translateY(0px); -webkit-transform: translateY(0px); transform: translateY(0px);}
